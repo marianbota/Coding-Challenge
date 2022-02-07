@@ -24,3 +24,7 @@ python3 main.py -get_frequent requests -url 'https://example.com/archive.gz' -n 
 
   - will try to download the archive at the url provided, save it in the data folder and extract the log file there 
   - will use the provided number of top requests per day which is 5
+
+The requirements.txt file includes the python version as well as the pip packages that I have used to run the program. I suspect that older or newer versions would work just as well but I did not dedicate time to check this so in case of issues update to the versions mentioned in requirements.txt.
+
+The programs prints out in the command line the results for simplicity of use but this can easily be changed to output to file for example.
