@@ -1,0 +1,4 @@
+python 3.9.7
+pandas==1.4.0
+numpy==1.22.2
+requests==2.25.1
