@@ -130,8 +130,7 @@ if __name__ == '__main__':
         challenge.dest_folder = 'backup'
         challenge.archive_path = os.path.join(
             challenge.dest_folder, 'backup_NASA_access_log_Jul95.gz')
-        challenge.file_name = os.path.splitext(
-            challenge.archive_path)[0]
+        challenge.extract()
     else:
         challenge.url = args.url
         challenge.dest_folder = 'data'
