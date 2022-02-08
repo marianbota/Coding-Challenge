@@ -28,3 +28,9 @@ python3 main.py -get_frequent requests -url 'https://example.com/archive.gz' -n 
 The requirements.txt file includes the python version as well as the pip packages that I have used to run the program. I suspect that older or newer versions would work just as well but I did not dedicate time to check this so in case of issues update to the versions mentioned in requirements.txt.
 
 The programs prints out in the command line the results for simplicity of use but this can easily be changed to output to file for example.
+
+Plans for future improvements:
+  - design unit testing for the program
+  - analyse data that is not loaded (in the step that loads into dataframe on_bad_lines='skip' is used) and see if more data can be used
+  - generate some plots based on the results
+  - check other metrics that could show insights into the data (e.g. look at responses maybe corelation between 4xx response vs requests etc)
